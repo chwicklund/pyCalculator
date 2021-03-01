@@ -1,2 +1,2 @@
-def addition(a, b):
+def multiplication(a, b):
     return float(a) * float(b)

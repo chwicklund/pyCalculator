@@ -1,3 +1,8 @@
+
+from src.subtraction import subtraction
+from src.addition import addition
+
+
 class Calculator:
     result = 0
 
