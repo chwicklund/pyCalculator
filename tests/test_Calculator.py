@@ -10,12 +10,7 @@ class CalcTestCase(unittest.TestCase):
         self.assertIsInstance(self.calculator, Calculator)
 
     def test_result_is_zero_calculator(self):
-
         self.assertEqual(self.calculator.result, 0)
-
-    def test_addition(self):
-        add = Calculator.add(1, 2)
-        self.assertIsInstance(add, Calculator)
 
     def test_addition(self):
         add = Calculator.add(1, 2)
