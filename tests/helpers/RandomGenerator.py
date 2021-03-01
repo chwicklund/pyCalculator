@@ -8,5 +8,6 @@ class RandomGenerator:
         pass
 
     @staticmethod
-    def get_random_number(r):
-        return random.random
+    def get_random_number(s: int) -> float:
+        random.seed(s)
+        return random.random()
