@@ -1,7 +1,7 @@
-from src.addition import addition
-from src.subtraction import subtraction
-from src.multiplication import multiplication
-from src.division import division
+from src.calculator.addition import addition
+from src.calculator.subtraction import subtraction
+from src.calculator.multiplication import multiplication
+from src.calculator.division import division
 
 
 class Calculator:
