@@ -1,4 +1,6 @@
 import unittest
+from helpers.RandomGenerator import RandomGenerator
+from src.calculator.calculator import Calculator
 
 from src.calculator.calculator import Calculator
 
